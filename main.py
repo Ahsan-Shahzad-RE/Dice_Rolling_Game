@@ -16,7 +16,7 @@ while True:
     result = []
 
     for i in range (dices):
-        roll = random.randint(1,7)
+        roll = random.randint(1,6)
         result.append(roll)
 
     print(f"You rolled {result} dices.")
